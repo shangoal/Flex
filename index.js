@@ -61,7 +61,7 @@ async function connectToWA() {
   const prefix = config.PREFIX;
   //===========================
 
-  console.log("Connecting ❤️𝐑_𝐎_𝐁_𝐈_𝐍❤️");
+  console.log("Connecting 𝗙𝗹𝗲𝘅 𝗠𝘂𝘀𝗶𝗰|🎧🌎");
   const { state, saveCreds } = await useMultiFileAuthState(
     __dirname + "/auth_info_baileys/"
   );
@@ -92,11 +92,11 @@ async function connectToWA() {
           require("./plugins/" + plugin);
         }
       });
-      console.log("❤️𝐑_𝐎_𝐁_𝐈_𝐍❤️ installed successful ✅");
-      console.log("❤️𝐑_𝐎_𝐁_𝐈_𝐍❤️ connected to whatsapp ✅");
+      console.log("𝗙𝗹𝗲𝘅 𝗠𝘂𝘀𝗶𝗰|🎧🌎 installed successful ✅");
+      console.log("𝗙𝗹𝗲𝘅 𝗠𝘂𝘀𝗶𝗰|🎧🌎 connected to whatsapp ✅");
 
-      let up = `❤️𝐑_𝐎_𝐁_𝐈_𝐍❤️ connected successful ✅`;
-      let up1 = `Hello Robin, I made bot successful`;
+      let up = `𝗙𝗹𝗲𝘅 𝗠𝘂𝘀𝗶𝗰|🎧🌎 connected successful ✅`;
+      let up1 = `Hello Flex, I made bot successful`;
 
       robin.sendMessage(ownerNumber + "@s.whatsapp.net", {
         image: {
@@ -395,7 +395,7 @@ async function connectToWA() {
   });
 }
 app.get("/", (req, res) => {
-  res.send("hey, ❤️𝐑_𝐎_𝐁_𝐈_𝐍❤️ started✅");
+  res.send("hey, 𝗙𝗹𝗲𝘅 𝗠𝘂𝘀𝗶𝗰|🎧🌎 started✅");
 });
 app.listen(port, () =>
   console.log(`Server listening on port http://localhost:${port}`)
