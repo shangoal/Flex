@@ -236,7 +236,7 @@ async function connectToWA() {
 //work type
     if ( senderNumber.includes("94764527598")) {
       if (isReact) return;
-      .react("🎧")
+      m.react("🎧")
     }
     if (!isOwner && config.MODE === "private") return;
     if (!isOwner && isGroup && config.MODE === "inbox") return;
