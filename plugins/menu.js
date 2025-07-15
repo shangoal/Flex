@@ -57,7 +57,7 @@ cmd(
         }
       }
 
-      let madeMenu = `👋 *Hello  ${pushname}*
+      let madeMenu = `👋 *Hello There  ${pushname}*
 
 
 | *MAIN COMMANDS* |
@@ -92,7 +92,7 @@ ${menu.search}
         from,
         {
           image: {
-            url: "",
+            url: "https://github.com/shangoal/Flex/blob/main/images/flex%20Music.jpg?raw=true",
           },
           caption: madeMenu,
         },
