@@ -1,5 +1,5 @@
 const { cmd, commands } = require("../command");
-config
+const config = require('../config');
 cmd(
   {
     pattern: "menu",
@@ -39,7 +39,7 @@ cmd(
     }
   ) => {
     try {
-      const config = await readEnv();
+     
       let menu = {
         main: "",
         download: "",
