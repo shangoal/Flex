@@ -49,16 +49,17 @@ cmd(
 
       // Song metadata description
       let desc = `
-*❤️ROBIN SONG DOWNLOADER❤️*
+*FLEX SONG DOWNLOADER*
 
-👻 *title* : ${data.title}
+🧚 *Tɪᴛʟᴇ* : ${data.title}
 👻 *description* : ${data.description}
-👻 *time* : ${data.timestamp}
-👻 *ago* : ${data.ago}
-👻 *views* : ${data.views}
-👻 *url* : ${data.url}
+▫⏱ *Dᴜʀᴀᴛɪᴏɴ* : ${data.timestamp}
+▫📅 *Rᴇʟᴇᴀꜱᴇ Dᴀᴛᴇ* : ${data.ago}
+▫🎭 *Vɪᴇᴡꜱ* : ${data.views}
 
-𝐌𝐚𝐝𝐞 𝐛𝐲 𝐒_𝐈_𝐇_𝐈_𝐋_𝐄_𝐋
+ᴜꜱᴇ ʜᴇᴀᴅᴘʜᴏɴᴇꜱ ꜰᴏʀ ʙᴇꜱᴛ ᴇxᴘᴇʀɪᴇɴᴄᴇ...☊
+
+>Flex Team Creation
 `;
 
       // Send metadata thumbnail message
