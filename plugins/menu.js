@@ -58,7 +58,7 @@ cmd(
         }
       }
 
-      let madeMenu = `👋 *Hello There  ${pushname}*
+      let madeMenu = `👋 *Hello ${pushname}*
 
 
 | *MAIN COMMANDS* |
@@ -74,8 +74,8 @@ cmd(
 | *GROUP COMMANDS* |
 ${menu.group}
 | *OWNER COMMANDS* |
-    ▫️.restart
-    ▫️.update
+    ▫️.restart⚙
+    ▫️.update⚙
 | *CONVERT COMMANDS* |
     ▫️.sticker <reply img>
     ▫️.img <reply sticker>
@@ -85,15 +85,15 @@ ${menu.group}
 ${menu.search}
 
 
-𝐌𝐚𝐝𝐞 𝐛𝐲 𝗙𝗹𝗲𝘅 𝗠𝘂𝘀𝗶𝗰 | 🎧🌎
+𝐌𝐚𝐝𝐞 𝐛𝐲 Flex Admin
 
-> FLEX MENU MSG
+> FLEX MENU MESSAGE
 `;
       await robin.sendMessage(
         from,
         {
           image: {
-            url: "https://github.com/shangoal/Flex/blob/main/images/flex%20Music.jpg?raw=true",
+            url: "https://github.com/shangoal/Flex/blob/main/images/20250720_212545.png?raw=true",
           },
           caption: madeMenu,
         },
