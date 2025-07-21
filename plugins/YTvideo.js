@@ -100,8 +100,8 @@ cmd(
         {
           document: { url: songData.download.url },
           mimetype: "video/mp4",
-          fileName: `${data.title}.mp3`,
-          caption: "𝐌𝐚𝐝𝐞 𝐛𝐲 𝐒_𝐈_𝐇_𝐈_𝐋_𝐄_𝐋",
+          fileName: `${data.title}.mp4`,
+          caption: "Flex Team Creation",
         },
         { quoted: mek }
       );
