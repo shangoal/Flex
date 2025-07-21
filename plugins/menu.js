@@ -1,6 +1,5 @@
-const { readEnv } = require("../lib/database");
 const { cmd, commands } = require("../command");
-
+config
 cmd(
   {
     pattern: "menu",
