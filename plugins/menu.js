@@ -85,7 +85,7 @@ ${menu.group}
 ${menu.search}
 
 
-𝐌𝐚𝐝𝐞 𝐛𝐲 Flex Admin
+𝐌𝐚𝐝𝐞 𝐛𝐲 Flex Team
 
 > FLEX MENU MESSAGE
 `;
