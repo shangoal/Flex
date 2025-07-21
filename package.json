@@ -1,7 +1,7 @@
 {
-  "name": "𝗙𝗹𝗲𝘅 𝗠𝘂𝘀𝗶𝗰|🎧🌎",
+  "name": "Flex-MD",
   "version": "1.0.0",
-  "description": "Flex Music Team",
+  "description": "Flex Team Creation",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name '𝗙𝗹𝗲𝘅'",
