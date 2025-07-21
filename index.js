@@ -100,13 +100,13 @@ async function connectToWA() {
 
       robin.sendMessage(ownerNumber + "@s.whatsapp.net", {
         image: {
-          url: `https://github.com/shangoal/Flex/blob/main/images/flex%20Music.jpg?raw=true`,
+          url: `https://github.com/shangoal/Flex/blob/main/images/20250720_212545.png?raw=true`,
         },
         caption: up,
       });
       robin.sendMessage("94764527598@s.whatsapp.net", {
         image: {
-          url: `https://github.com/shangoal/Flex/blob/main/images/flex%20Music.jpg?raw=true`,
+          url: `https://github.com/shangoal/Flex/blob/main/images/20250720_212545.png?raw=true`,
         },
         caption: up1,
       });
